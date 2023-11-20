@@ -43,11 +43,19 @@
                 </a>
               </li>
              <!-- fin opcion  --> 
-                      <!-- inicia opcion --> 
+                        <!-- inicia opcion --> 
                 <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="egreso.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Egreso-Ingreso Caja Chica</p>
+                  <p>Egreso</p>
+                </a>
+              </li>
+             <!-- fin opcion  --> 
+               <!-- inicia opcion --> 
+               <li class="nav-item">
+                <a href="ingreso.php" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Ingreso</p>
                 </a>
               </li>
              <!-- fin opcion  --> 

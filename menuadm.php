@@ -54,9 +54,17 @@
              <!-- fin opcion  --> 
                       <!-- inicia opcion --> 
                 <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="egreso.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Egreso-Ingreso Caja Chica</p>
+                  <p>Egreso</p>
+                </a>
+              </li>
+             <!-- fin opcion  --> 
+               <!-- inicia opcion --> 
+               <li class="nav-item">
+                <a href="ingreso.php" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Ingreso</p>
                 </a>
               </li>
              <!-- fin opcion  --> 
@@ -76,7 +84,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="detcliente.php" class="nav-link ">
+                <a href="servicios.php" class="nav-link ">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Servicios</p>
                 </a>
@@ -103,20 +111,20 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="detcliente.php" class="nav-link ">
+                <a href="clientes.php" class="nav-link ">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Clientes</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="servicios.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Servicios</p>
                 </a>
               </li>
 
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="recepcion.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Recepciones x fecha</p>
                 </a>

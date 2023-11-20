@@ -15,7 +15,7 @@ include_once('header.php');
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Listado de Ususarios</h1>
+            <h1 class="m-0">Listado de Usuarios</h1>
             <br>
             <a class="btn btn-primary btn-social pull-right" href="add_usuario.php" title="agregar" data-toggle="tooltip">
            <i class="fa fa-plus"></i> Agregar
