@@ -26,6 +26,15 @@ include_once('header.php');
     <div class="content">
       <div class="container-fluid">
        <!-- contenido -->
+
+
+
+
+
+
+
+
+       
 </div>
        <!-- fin contenido -->
       </div><!-- /.container-fluid -->

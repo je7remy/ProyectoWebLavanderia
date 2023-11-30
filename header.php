@@ -4,7 +4,7 @@ include_once('includes/load.php');
 if (!$session->isUserLoggedIn(true)) { 
   redirect('index.php', false);
 }
-
+ob_start();
  ?>
 <!DOCTYPE html>
 <!--

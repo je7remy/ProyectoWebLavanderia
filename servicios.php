@@ -16,7 +16,7 @@ $all_servicios = find_all('servicios');
                 <div class="col-sm-6">
                     <h1 class="m-0">Listado de Servicios</h1>
                     <br>
-                    <a class="btn btn-primary btn-social pull-right" href="add_servicio.php" title="agregar"
+                    <a class="btn btn-primary btn-social pull-right" href="add_servicios.php" title="agregar"
                         data-toggle="tooltip">
                         <i class="fa fa-plus"></i> Agregar
                     </a>
@@ -69,7 +69,7 @@ $all_servicios = find_all('servicios');
                                         <td><?php echo remove_junk(ucwords($a_servicio['precio']))?></td>
                                         <td><?php echo remove_junk(ucwords($a_servicio['estado']))?></td>
                                         <td>
-                                            <a href="edit_servicio.php?id=<?php echo (int)$a_servicio['idservicio'];?>"
+                                            <a href="edit_servicios.php?id=<?php echo (int)$a_servicio['idservicio'];?>"
                                                 class="btn btn-block btn-info" data-toggle="tooltip" title="Editar">
                                                 Editar
                                             </a>
