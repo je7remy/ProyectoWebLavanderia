@@ -28,7 +28,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="detcliente.php" class="nav-link ">
+                <a href="recepcion.php" class="nav-link ">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Recepcion de Prendas</p>
                 </a>
@@ -36,7 +36,7 @@
             
                       <!-- inicia opcion --> 
              <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="clientes.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Registrar Cliente</p>
                 </a>

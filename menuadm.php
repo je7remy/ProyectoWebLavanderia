@@ -13,7 +13,6 @@
        <!-- fin menu  --> 
 
              <!-- inicia menu  --> 
-              
            <li class="nav-item menu-open">
             <a href="#" class="nav-link ">
               <i class="nav-icon fas fa-tachometer-alt"></i>
@@ -23,14 +22,14 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link ">
+                <a href="recepcion.php" class="nav-link ">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Recepcion de Prendas</p>
                 </a>
               </li>
              <!-- inicia opcion --> 
               <li class="nav-item">
-                <a href="anularecep.php" class="nav-link">
+                <a href="anular_recepcion.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Anular Recepcion</p>
                 </a>
@@ -39,9 +38,17 @@
 
                       <!-- inicia opcion --> 
              <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="clientes.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Registrar Cliente</p>
+                </a>
+              </li>
+             <!-- fin opcion  --> 
+               <!-- inicia opcion --> 
+               <li class="nav-item">
+                <a href="anular_cliente.php" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Anular Cliente</p>
                 </a>
               </li>
              <!-- fin opcion  --> 
@@ -53,11 +60,27 @@
                 </a>
               </li>
              <!-- fin opcion  --> 
+              <!-- inicia opcion --> 
+              <li class="nav-item">
+                <a href="anular_egreso.php" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Anular Egreso</p>
+                </a>
+              </li>
+             <!-- fin opcion  --> 
                <!-- inicia opcion --> 
                <li class="nav-item">
                 <a href="ingreso.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Ingreso</p>
+                </a>
+              </li>
+             <!-- fin opcion  --> 
+              <!-- inicia opcion --> 
+              <li class="nav-item">
+                <a href="anular_ingreso.php" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Anular Ingreso</p>
                 </a>
               </li>
              <!-- fin opcion  --> 
@@ -104,26 +127,26 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="clientes.php" class="nav-link ">
+                <a href="#" class="nav-link ">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Clientes</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="servicios.php" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Servicios</p>
                 </a>
               </li>
 
               <li class="nav-item">
-                <a href="recepcion.php" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Recepciones x fecha</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="usuarios.php" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Usuarios</p>
                 </a>

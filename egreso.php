@@ -113,5 +113,6 @@ $all_egresos = find_all('egreso');
     </div>
 
     <?php
+   
 include_once('footer.php');
 ?>
