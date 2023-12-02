@@ -79,7 +79,7 @@ if (isset($_POST['descripcion'])) {
                                 <label for="exampleInputPassword1">Estado</label>
                                 <select class="form-control" id="estado" name="estado">
                                     <option value="A">Activo</option>
-                                    <option value="I">Inactivo</option>
+                                    <option value="I"disabled>Inactivo</option>
                                 </select>
                             </div>
 
@@ -89,7 +89,7 @@ if (isset($_POST['descripcion'])) {
                         <div class="card-footer">
                             <button type="submit" class="btn btn-primary">Guardar</button>
 
-                            <a href="egresos.php" class="btn btn-danger">Cancelar</a>
+                            <a href="egreso.php" class="btn btn-danger">Cancelar</a>
                         </div>
                     </form>
                 </div>

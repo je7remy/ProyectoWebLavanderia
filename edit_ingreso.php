@@ -89,14 +89,15 @@ if (isset($_POST['descripcion'])) {
                             </div>
 
                             <div class="form-group">
-                                <label for="exampleInputPassword1">Estado</label>
-                                <select class="form-control" name="estado" id="estado">
-                                    <option <?php if ($e_ingreso['estado'] === 'A') echo 'selected="selected"'; ?>
-                                        value="A">Activo</option>
-                                    <option <?php if ($e_ingreso['estado'] === 'I') echo 'selected="selected"'; ?>
-                                        value="I">Inactivo</option>
-                                </select>
-                            </div>
+    <label for="exampleInputPassword1">Estado</label>
+
+    <!-- Campo oculto para almacenar el valor -->
+    <input type="hidden" name="estado" id="estado" value="<?php echo $e_ingreso['estado']; ?>">
+
+    <!-- Campo de solo lectura para mostrar el estado -->
+    <input type="text" class="form-control" readonly value="<?php echo ($e_ingreso['estado'] === 'A') ? 'Activo' : 'Inactivo'; ?>">
+</div>
+
 
                         </div>
                         <!-- /.card-body -->

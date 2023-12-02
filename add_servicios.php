@@ -76,7 +76,7 @@ if (isset($_POST['descripcion'])) {
                                 <label for="exampleInputPassword1">Estado</label>
                                 <select class="form-control" id="estado" name="estado">
                                     <option value="Activo">Activo</option>
-                                    <option value="Inactivo">Inactivo</option>
+                                    <option value="Inactivo"disabled>Inactivo</option>
                                 </select>
                             </div>
 

@@ -82,13 +82,13 @@ if (isset($_POST['fecha'])) {
                                     placeholder="Id Cliente">
                             </div>
 
-                            <div class="form-group">
+                             <div class="form-group">
                                 <label for="exampleInputPassword1">Estado</label>
                                 <select class="form-control" id="estado" name="estado">
                                     <option value="A">Activo</option>
-                                    <option value="I">Inactivo</option>
+                                    <option value="I" disabled>Inactivo</option>
                                 </select>
-                            </div>
+                            </div> 
 
                         </div>
                         <!-- /.card-body -->
@@ -96,7 +96,7 @@ if (isset($_POST['fecha'])) {
                         <div class="card-footer">
                             <button type="submit" class="btn btn-primary">Guardar</button>
 
-                            <a href="recepciones.php" class="btn btn-danger">Cancelar</a>
+                            <a href="recepcion.php" class="btn btn-danger">Cancelar</a>
                         </div>
                     </form>
                 </div>

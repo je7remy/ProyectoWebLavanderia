@@ -115,19 +115,21 @@ if(!$e_usuario){
                   <select class="form-control" id="tipo_usuario" name="tipo_usuario">
                     <option <?php if($e_usuario['tipo_usuario'] === 'ADM') echo 'selected="selected"';?> value="ADM"> Administrador </option>
                     <option <?php if($e_usuario['tipo_usuario'] === 'USR') echo 'selected="selected"';?> value="USR">Usuario Simple</option>
-                    <option <?php if($e_usuario['tipo_usuario'] === 'USR') echo 'selected="selected"';?> value="USR">Usuario Simple</option>
+                  
                   </select>
                   </div>
 
           
                   <div class="form-group">
-                  <label for="exampleInputPassword1">Estado</label>
-                  <select class="form-control" id="estado" name="estado">
-                    <option <?php if($e_usuario['estado'] === 'A') echo 'selected="selected"';?> value="A"> Activo </option>
-                    <option <?php if($e_usuario['estado'] === 'I') echo 'selected="selected"';?> value="I">Inactivo</option>
-                    <option <?php if($e_usuario['estado'] === 'I') echo 'selected="selected"';?> value="I">Inactivo</option>
-                  </select>
-                  </div>
+    <label for="exampleInputPassword1">Estado</label>
+
+    <!-- Campo oculto para almacenar el valor -->
+    <input type="hidden" name="estado" id="estado" value="<?php echo $e_usuario['estado']; ?>">
+
+    <!-- Campo de solo lectura para mostrar el estado -->
+    <input type="text" class="form-control" readonly value="<?php echo ($e_usuario['estado'] === 'A') ? 'Activo' : 'Inactivo'; ?>">
+</div>
+
 
 
              
