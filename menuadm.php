@@ -127,26 +127,26 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link ">
+                <a href="clientesverrep.php" class="nav-link ">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Clientes</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="serviciosverrep.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Servicios</p>
                 </a>
               </li>
 
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="recepcionverrep.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Recepciones x fecha</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="usuarioverrep.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Usuarios</p>
                 </a>

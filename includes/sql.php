@@ -116,6 +116,45 @@ function count_by_id($table){
     $sql  .= " ORDER BY idusuario asc";
     return find_by_sql($sql);
   }
+  
+
+/*--------------------------------------------------------------*/
+/* Function for Display Recent clientes Added
+/*--------------------------------------------------------------*/
+/* Function for Display Recent clientes Added */
+function find_clientes_rep($estado) {
+  global $db;
+  // $estado = mysqli_real_escape_string($db, $estado);
+  $sql = "SELECT idcliente, nombre, cedula, telefono, direccion, estado 
+          FROM cliente 
+          WHERE estado LIKE '%".$estado."%'"; 
+  $sql .= " ORDER BY idcliente ASC";
+  return find_by_sql($sql);
+}
+
+//servicios
+function find_servicios_rep($estado) {
+  global $db;
+  // $estado = mysqli_real_escape_string($db, $estado);
+  $sql = "SELECT idservicio, descripcion, precio, estado 
+          FROM servicios 
+          WHERE estado LIKE '%".$estado."%'"; 
+  $sql .= " ORDER BY idservicio ASC";
+  return find_by_sql($sql);
+}
+
+//receocion
+function find_recepciones_rep($estado) {
+  global $db;
+  // $estado = mysqli_real_escape_string($db, $estado);
+  $sql = "SELECT idrecepcion, fecha, idusuario, idcliente, estado 
+          FROM recepcion 
+          WHERE estado LIKE '%".$estado."%'"; 
+  $sql .= " ORDER BY idrecepcion ASC";
+  return find_by_sql($sql);
+}
+
+
 
 
 /*--------------------------------------------------------------*/
